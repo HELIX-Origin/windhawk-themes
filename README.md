@@ -6,7 +6,7 @@
   <a href="https://github.com/HELIX-Origin/windhawk-themes/releases"><img src="https://img.shields.io/github/v/release/HELIX-Origin/windhawk-themes?include_prereleases&label=Release&color=blue" alt="Release" height="20" /></a>
   <a href="https://docs.helix-origin.club/windhawk-themes/"><img src="https://img.shields.io/badge/Docs-docs.helix--origin.club-brightgreen" alt="Documentation" height="20" /></a>
   <a href="https://wiki.helix-origin.club/windhawk-themes/"><img src="https://img.shields.io/badge/Wiki-wiki.helix--origin.club-brightgreen" alt="Technical Wiki" height="20" /></a>
-  <a href="https://opensource.org/licenses/BSD-3-Clause"><img src="https://img.shields.io/badge/License-BSD--3--Clause-blue.svg" alt="License: BSD-3-Clause" height="20" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" height="20" /></a>
 </p>
 
 **A universal Windows 11 theme engineering framework, cohesive styling suites, and diagnostic toolchains for official Windhawk styler mods.**
@@ -39,8 +39,20 @@ All comprehensive styler documentation, visual-tree target references, and engin
 pwsh -NoProfile -File tools/Test-WindhawkStyles.ps1
 ```
 
+
+---
+
+## Community & Contributing
+
+- [Contributing Guide](CONTRIBUTING.md) - development setup, coding conventions, and the PR process.
+- [Code of Conduct](CODE_OF_CONDUCT.md) - community expectations.
+- [Support](SUPPORT.md) - where to get help.
+- [Governance](GOVERNANCE.md) - roles, decision making, and release policy.
+- [Security Policy](SECURITY.md) - private vulnerability reporting.
+
+See also [Privacy](PRIVACY.md), [Terms](TOS.md), [Changelog](CHANGELOG.md), and [Citation](CITATION.cff).
 ---
 
 ## ⚖️ License
 
-[BSD-3-Clause](LICENSE) — Copyright (c) 2026, HELIX Origin.
+[MIT](LICENSE) — Copyright (c) 2026, HELIX Origin.

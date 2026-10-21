@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use windhawk-themes in your work, please cite it as below."
+title: "windhawk-themes"
+abstract: "windhawk-themes application."
+type: software
+authors:
+  - name: "windhawk-themes contributors"
+
+license: MIT
+version: "0.1.0"
+date-released: "2026-10-19"
+keywords:
+  - "windhawk-themes"
+  - "docs-site"

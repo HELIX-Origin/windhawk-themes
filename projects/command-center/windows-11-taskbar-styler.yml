@@ -130,7 +130,7 @@ controlStyles:
       - RadiusY=1.5
   - target: Windows.UI.Xaml.Shapes.Rectangle#DeterminateProgressBarIndicator
     styles:
-      - Fill:=$AccentColor
+      - Fill:=<SolidColorBrush Color="{ThemeResource SystemAccentColor}"/>
   - target: Taskbar.TaskListButton#TaskListButton > Grid#IconPanel > Microsoft.UI.Xaml.Controls.ProgressBar#ProgressIndicator, Taskbar.TaskListButton#TaskListButton > Taskbar.TaskListLabeledButtonPanel#IconPanel > Microsoft.UI.Xaml.Controls.ProgressBar#ProgressIndicator
     styles:
       - MinHeight=4
