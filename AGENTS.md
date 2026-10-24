@@ -1,24 +1,23 @@
 # windhawk-themes
 
-Documentation site (Jekyll, theme-neutral content).
+Windhawk theming suites for Windows 11 — YAML style definitions targeting Windhawk styler mods (TaskbarXI, StartAllBack, ExplorerBlur, etc.).
 
-## Project-local agents
+## Verify
 
-This repository ships its own self-contained agents ecosystem (`AGENTS.md`, `.agents/`) and
-tracking files (`ROADMAP.md`, `PLAN.md`, `TODO.md`, `BUGS.md`). Keep them accurate as work progresses.
-
-## Build & test
-
-- `bundle exec jekyll build` / `bundle exec jekyll serve`
-- Front matter validated by CI.
+```powershell
+pwsh -NoProfile -File tools/Test-WindhawkStyles.ps1
+# Expected: 0 errors, all YAML definitions parse correctly
+```
 
 ## Conventions
 
-- Content is theme-neutral and mod-agnostic (no theme-specific tokens in docs).
-- Theme specifics belong only in the catalogue.
-- See `.agents/rules/local-conventions.md`.
+- Each suite is a self-contained directory under `themes/<suite-name>/`.
+- Style definitions are YAML (`.yml`); CSS-in-YAML values follow the Windhawk styler schema.
+- Uses `WindhawkBlur` and vertical gradient rim borders as primary visual motifs.
+- Never hardcode hex colors outside the suite's token block at the top of each file.
+- Releases: zero attached assets (git tag + release notes only); SemVer (`vMAJOR.MINOR.PATCH`).
 
 ## Invariants
 
-MIT license, SemVer releases, zero-warning builds, community-health files.
-See `CONTRIBUTING.md` for the full contributor guidelines.
+MIT license, SemVer releases (zero-asset), zero-error YAML validation, community-health files.
+See `CONTRIBUTING.md` and `.agents/rules/local-conventions.md` for full guidelines.
